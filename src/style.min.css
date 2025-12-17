@@ -1,1 +1,1 @@
-/*# sourceMappingURL=style.min.css.map */
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif}nav{position:fixed;display:flex;line-height:90px;padding-inline:9vw;transition:.3s;z-index:100}.nav-logo{position:relative}.nav-name{font-size:30px;font-weight:600;color:var(--text-color-third)}:root{--text-color-third: rgb(30, 159, 171)}/*# sourceMappingURL=style.min.css.map */
