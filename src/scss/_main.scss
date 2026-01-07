@@ -75,3 +75,24 @@
 .icon:hover {
   color: var(--first-color);
 }
+
+.featured-image {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+  min-height: 80vh;
+  width: 50%;
+}
+
+.image {
+  margin: auto 0;
+  width: 380px;
+  height: 368px;
+  border-radius: 55% 45% 55% 45%;
+  overflow: hidden;
+
+  img {
+    width: 380px;
+    object-fit: cover;
+  }
+}
