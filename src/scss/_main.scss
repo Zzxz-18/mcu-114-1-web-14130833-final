@@ -2,6 +2,8 @@
   padding-inline: 10vw;
 }
 
+//首頁部分
+
 .featured-box {
   position: relative;
   display: flex;
@@ -95,4 +97,93 @@
     width: 380px;
     object-fit: cover;
   }
+}
+
+//關於我的部分
+
+.about-me {
+  padding-block: 6em;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+
+.col {
+  display: flex;
+  width: 50%;
+}
+
+.top-header {
+  text-align: center;
+  margin-bottom: 5em;
+
+  h1 {
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-bottom: 10px;
+  }
+
+  span {
+    color: #999;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color-second);
+  margin-bottom: 15px;
+}
+
+.about-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 30px 70px;
+  padding-inline: 20px;
+  width: 100%;
+  background: var(--color-white);
+  box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+  border-radius: 20px;
+
+  p {
+    font-size: 15px;
+    color: #777;
+  }
+}
+
+.education {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 30px 70px;
+  padding-inline: 20px;
+  width: 100%;
+}
+
+.resume-item {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: var(--text-color-second);
+  position: relative;
+}
+
+.resume-item::before {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  margin-top: 2px;
+  left: -8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background-color: var(--first-color);
 }
