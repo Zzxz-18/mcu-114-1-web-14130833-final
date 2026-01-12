@@ -101,7 +101,7 @@
 
 //關於我的部分
 
-.about-me {
+.section {
   padding-block: 6em;
 }
 
@@ -185,5 +185,37 @@ h3 {
   width: 16px;
   height: 16px;
   border-radius: 50px;
+  background-color: var(--first-color);
+}
+
+//技能部分
+
+.skills-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  flex-basis: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress-bar-wrap {
+  height: 10px;
+  border: 1px solid #ccc;
+}
+
+.progress-bar {
+  height: 10px;
   background-color: var(--first-color);
 }
